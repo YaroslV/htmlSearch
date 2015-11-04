@@ -11,9 +11,10 @@ using Microsoft.SqlServer.Server;
 
 namespace ConsoleApplication1.Manager
 {
-    private string textToSearch;
+    
     public class HtmlSearchManager
     {
+        private string textToSearch;
         public bool SearchForText(string textToSearch, string url,int numberOfUrlSearch)
         {
             //get text from HTML page
