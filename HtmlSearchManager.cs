@@ -11,6 +11,7 @@ using Microsoft.SqlServer.Server;
 
 namespace ConsoleApplication1.Manager
 {
+    private string textToSearch;
     public class HtmlSearchManager
     {
         public bool SearchForText(string textToSearch, string url,int numberOfUrlSearch)
